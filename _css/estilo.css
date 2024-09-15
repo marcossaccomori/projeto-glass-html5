@@ -104,7 +104,7 @@ p {
 
 #corpo {
     display: block;
-    width: 600px;
+    width: 650px;
     float: left;
     border-right: 1px solid #606060;
     padding-right: 15px;
@@ -144,6 +144,31 @@ p {
 
 .foto-legenda figcaption:hover {
     opacity: 1;
+}
+
+#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tabelaspec .ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+#tabelaspec .cd {
+    background-color: #cecece;
 }
 
 #rodape {
